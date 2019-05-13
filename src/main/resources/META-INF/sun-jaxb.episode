@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2019.05.13 a las 02:54:03 AM COT 
+
+  -->
+  <bindings xmlns:tns="http://www.peiky.com/payment" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.soapboot.SoapBoot.soap.client"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:UserLoginRequest">
+      <class ref="com.soapboot.SoapBoot.soap.client.UserLoginRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:UserLoginResponse">
+      <class ref="com.soapboot.SoapBoot.soap.client.UserLoginResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:User">
+      <class ref="com.soapboot.SoapBoot.soap.client.User"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CreditCardGetByUserCodeRequest">
+      <class ref="com.soapboot.SoapBoot.soap.client.CreditCardGetByUserCodeRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CreditCardGetByUserCodeResponse">
+      <class ref="com.soapboot.SoapBoot.soap.client.CreditCardGetByUserCodeResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CreditCard">
+      <class ref="com.soapboot.SoapBoot.soap.client.CreditCard"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:MovementGetByUserCodeRequest">
+      <class ref="com.soapboot.SoapBoot.soap.client.MovementGetByUserCodeRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:MovementGetByUserCodeResponse">
+      <class ref="com.soapboot.SoapBoot.soap.client.MovementGetByUserCodeResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CreditCardWithMovements">
+      <class ref="com.soapboot.SoapBoot.soap.client.CreditCardWithMovements"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:MovementGetByCreditCardTokenRequest">
+      <class ref="com.soapboot.SoapBoot.soap.client.MovementGetByCreditCardTokenRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:MovementGetByCreditCardTokenResponse">
+      <class ref="com.soapboot.SoapBoot.soap.client.MovementGetByCreditCardTokenResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Movement">
+      <class ref="com.soapboot.SoapBoot.soap.client.Movement"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DocumentType">
+      <typesafeEnumClass ref="com.soapboot.SoapBoot.soap.client.DocumentType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Franchise">
+      <typesafeEnumClass ref="com.soapboot.SoapBoot.soap.client.Franchise"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MovementType">
+      <typesafeEnumClass ref="com.soapboot.SoapBoot.soap.client.MovementType"/>
+    </bindings>
+  </bindings>
+</bindings>
